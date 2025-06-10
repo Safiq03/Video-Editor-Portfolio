@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Video Editor Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+    .typing {
+  color: #00d4ff;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: 'Courier New', Courier, monospace; /* force monospacing */
+  border-right: 2px solid #00d4ff;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0ch;
+  animation: typing 3s steps(26, end) forwards, blink 0.8s step-end infinite;
+  margin: 10px auto 20px;
+}
+
+@keyframes typing {
+  from { width: 0ch; }
+  to { width: 26ch; } /* match exact character count */
+}
+
+
+@keyframes blink {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: #00d4ff; }
+}
+
+
+    @keyframes fadeInUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes fadeInDown {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .section {
+      margin: 50px 0;
+      animation: fadeInUp 1s ease-in-out;
+    }
+
+    .section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #00ffc3;
+      text-align: center;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 30px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.02);
+      background: rgba(0, 212, 255, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+
+    a.button {
+      display: inline-block;
+      background: #00d4ff;
+      color: #000;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+      margin-top: 10px;
+    }
+
+    a.button:hover {
+      background: #00ffc3;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>I'm Safiq</h1>
+    <div class="typing">Professional Video Editor</div>
+    <a class="button" href="mailto:safiqnishar03@gmail.com">Hire Me</a>
+  </header>
+
+  <div class="section">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        Hi, I'm a passionate video editor with experience in editing content for YouTube, Instagram, and professional presentations.
+        I specialize in creating cinematic, engaging, and story-driven edits that capture attention and deliver impact.
+      </p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Sample Works</h2>
+    <div class="card">
+      <h3>Engineering Facts</h3>
+      <p>YouTube Channel</p>
+      <a class="button" href="https://youtube.com/shorts/iJRsvnwoRGY?si=GJXesifYxkliVsbM" target="_blank">Watch</a>
+    </div>
+    <div class="card">
+      <h3>Buying Facts</h3>
+      <p>YouTube Channel</p>
+      <a class="button" href="https://youtube.com/shorts/K2kkXTa2iUY?si=CWnTDhMLJuog7bzV" target="_blank">Watch</a>
+    </div>
+    <div class="card">
+      <h3>Engineering Facts</h3>
+      <p>YouTube Channel</p>
+      <a class="button" href="https://youtube.com/shorts/VppqNUVMvjk?si=09PO6xLGdkGeVDg9" target="_blank">Watch</a>
+    </div>
+  </div>
+
+  <div class="section" id="skills">
+    <h2>Skills / Softwares</h2>
+    <div class="card">
+      <div class="skill">
+        <label>Adobe Premiere Pro - <span class="percent-count">0%</span></label>
+        <div class="bar"><div class="fill-glow" data-width="90"></div></div>
+      </div>
+      <div class="skill">
+        <label>CapCut / VN - <span class="percent-count">0%</span></label>
+        <div class="bar"><div class="fill-glow" data-width="85"></div></div>
+      </div>
+      <div class="skill">
+        <label>Da Vinci Resolve - <span class="percent-count">0%</span></label>
+        <div class="bar"><div class="fill-glow" data-width="80"></div></div>
+      </div>
+      <div class="skill">
+        <label>Adobe After Effects  - <span class="percent-count">0%</span></label>
+        <div class="bar"><div class="fill-glow" data-width="75"></div></div>
+      </div>
+      <div class="skill">
+        <label>Final Cut Pro - <span class="percent-count">0%</span></label>
+        <div class="bar"><div class="fill-glow" data-width="70"></div></div>
+      </div>
+      <div class="skill">
+        <label>Color Grading - <span class="percent-count">0%</span></label>
+        <div class="bar"><div class="fill-glow" data-width="60"></div></div>
+      </div>
+      <div class="skill">
+        <label>Motion Graphics - <span class="percent-count">0%</span></label>
+        <div class="bar"><div class="fill-glow" data-width="60"></div></div>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    .skill {
+      margin-bottom: 25px;
+    }
+  
+    .skill label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+  
+    .bar {
+      height: 22px;
+      background: #1a1a1a;
+      border-radius: 30px;
+      overflow: hidden;
+      box-shadow: 0 0 5px #000;
+    }
+  
+    .fill-glow {
+      height: 100%;
+      width: 0;
+      border-radius: 30px;
+      background: linear-gradient(90deg, #00ffc8, #00bcd4, #2196f3);
+      box-shadow: 0 0 10px #00ffc8, 0 0 20px #00bcd4, 0 0 30px #2196f3;
+      transition: width 2s ease;
+    }
+  </style>
+  
+  <script>
+    let skillsAnimated = false;
+  
+    function animateSkills() {
+      if (skillsAnimated) return;
+  
+      const section = document.getElementById('skills');
+      const sectionTop = section.getBoundingClientRect().top;
+      const triggerHeight = window.innerHeight * 0.8;
+  
+      if (sectionTop < triggerHeight) {
+        document.querySelectorAll('.fill-glow').forEach((bar, index) => {
+          const percent = parseInt(bar.getAttribute('data-width'));
+          setTimeout(() => {
+            bar.style.width = percent + '%';
+          }, index * 300);
+  
+          const countSpan = bar.parentElement.previousElementSibling.querySelector('.percent-count');
+          let count = 0;
+          const interval = setInterval(() => {
+            count++;
+            countSpan.textContent = count + '%';
+            if (count >= percent) clearInterval(interval);
+          }, 20);
+        });
+  
+        skillsAnimated = true;
+      }
+    }
+  
+    window.addEventListener('scroll', animateSkills);
+  </script>
+  
+
+  <footer>
+    &copy; 2025 Mohammed Safiq Nishar | Video Editing Portfolio
+  </footer>
+
+</body>
+</html>
